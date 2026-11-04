@@ -37,7 +37,6 @@ Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
 ```
-sheik.py
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
@@ -45,10 +44,10 @@ content = """
         <title>Sample Web Page</title>
     </head>
     <body>
-        <h1>M SHEIK MOHAIDEEN(26018610)</h1>
+        <h1>Kapil Viknesh(260187991)</h1>
         <table border="3" cellspacing="2" cellpadding="15">
             <caption>Device Info</b></caption>
-            <tr bgcolor="cyan">
+            <tr bgcolor="lime">
                 <th>S.No.</th>
                 <th>Specification</th> 
                 <th>Details</th>
@@ -56,37 +55,38 @@ content = """
             <tr>
                 <td>1</td>
                 <td>Device name</td>
-                <td>TL15-53M-G2</td>
+                <td>LAPTOP-CVP36L5U</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Processor</td>
-                <td>Intel(R) Core(TM) 5 210H (2.20 GHz)</td>
+                <td>11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz (2.69 GHz)</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Installed RAM</td>
-                <td>16.0 GB (15.7 GB usable)</td>
+                <td>8.00 GB (7.73 GB usable)</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Graphics card</td>
-                <td>Intel(R) Graphics (128 MB)</td>
+                <td>NVIDIA GeForce RTX 3050 Laptop GPU (4 GB)
+Intel(R) UHD Graphics (128 MB)</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>Storage</td>
-                <td>115 GB of 477 GB used</td>
+                <td>260 GB of 954 GB used</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Device ID</td>
-                <td>247CC13A-F3D4-4AB8-9E90-A7EF293DF7E9</td>
+                <td>280AC25B-2F61-457C-9914-66100CCCF91A</td>
             </tr>
             <tr>
                 <td>7</td>
                 <td>Product ID</td>
-                <td>00342-42954-11601-AAOEM</td>
+                <td>00327-35944-45989-AAOEM</td>
             </tr>
             <tr>
                 <td>8</td>
@@ -96,7 +96,7 @@ content = """
             <tr>
                 <td>9</td>
                 <td>Pen and touch</td>
-                <td>No pen or touch input is available for this display</td>
+                <td>No pen or touch input is available for this displayvenv</td>
             </tr>
         </table>
     </body>
@@ -113,12 +113,13 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my own webserver is running successfully...")
 httpd.serve_forever()
+
 ```
 ## OUTPUT:
 Webpage
-![alt text](image.png)
+![alt text](<screenshortImage 2026-11-03 at 9.43.59 AM.jpeg>)
 Serverpage
-![alt text](image-1.png)
+![alt text](<screenshort Image 2026-11-03 at 9.43.58 AM.jpeg>)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
